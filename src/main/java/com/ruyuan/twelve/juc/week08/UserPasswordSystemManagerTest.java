@@ -14,6 +14,6 @@ public class UserPasswordSystemManagerTest {
         userPasswordSystemManager.register("23423433");
         userPasswordSystemManager.register("23423434");
 
-        Thread.sleep(100);
+        Thread.sleep(100000);
     }
 }
