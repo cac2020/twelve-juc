@@ -123,7 +123,7 @@ public class HotCommodityAnalysisMaster {
 
     /**
      * 读取多个文件目录下的数据
-     *
+     * 采用流合并技术
      * @param logFileNames 多个文件名
      * @return 文件内容对应的字符流
      */
