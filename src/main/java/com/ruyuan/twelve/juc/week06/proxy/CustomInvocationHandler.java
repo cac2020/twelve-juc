@@ -20,7 +20,7 @@ public class CustomInvocationHandler implements InvocationHandler {
         Callable<Object> methodRequest = new Callable<Object>() {
             @Override
             public Object call() throws Exception {
-                System.out.println(123);
+                method.invoke(target,args);
                 return null;
             }
         };
